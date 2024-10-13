@@ -1,0 +1,492 @@
+[
+    {
+      "id": 1,
+      "title": "Slim Fit Cotton Shirt",
+      "discPrice": 20,
+      "realPrice": 30,
+      "image": "../image/product_13.png",
+      "type": "mens"
+    },
+    {
+      "id": 2,
+      "title": "Dark Blue Denim Jeans",
+      "discPrice": 40,
+      "realPrice": 60,
+      "image": "../image/product_14.png",
+      "type": "mens"
+    },
+    {
+      "id": 3,
+      "title": "Genuine Leather Belt Brown",
+      "discPrice": 15,
+      "realPrice": 25,
+      "image": "../image/product_15.png",
+      "type": "mens"
+    },
+    {
+      "id": 4,
+      "title": "Black Casual Lace Shoes",
+      "discPrice": 50,
+      "realPrice": 70,
+      "image": "../image/product_16.png",
+      "type": "mens"
+    },
+    {
+      "id": 5,
+      "title": "Water Resistant Formal Watch",
+      "discPrice": 80,
+      "realPrice": 100,
+      "image": "../image/product_13.png",
+      "type": "mens"
+    },
+    {
+      "id": 6,
+      "title": "Graphic Print Cotton T-Shirt",
+      "discPrice": 18,
+      "realPrice": 28,
+      "image": "../image/product_17.png",
+      "type": "mens"
+    },
+    {
+      "id": 7,
+      "title": "Polarized Sunglasses for Men",
+      "discPrice": 30,
+      "realPrice": 40,
+      "image": "../image/product_18.png",
+      "type": "mens"
+    },
+    {
+      "id": 8,
+      "title": "Fleece Lined Hoodie for Winter",
+      "discPrice": 35,
+      "realPrice": 50,
+      "image": "../image/product_14.png",
+      "type": "mens"
+    },
+    {
+      "id": 9,
+      "title": "Breathable Sports Running Shoes",
+      "discPrice": 60,
+      "realPrice": 80,
+      "image": "../image/product_19.png",
+      "type": "mens"
+    },
+    {
+      "id": 10,
+      "title": "White Formal Dress Shirt Long Sleeve",
+      "discPrice": 25,
+      "realPrice": 35,
+      "image": "../image/product_20.png",
+      "type": "mens"
+    },
+    {
+      "id": 11,
+      "title": "Faded Blue Jeans Jacket for Men",
+      "discPrice": 45,
+      "realPrice": 65,
+      "image": "../image/product_21.png",
+      "type": "mens"
+    },
+    {
+      "id": 12,
+      "title": "Comfortable Casual Cotton Pants",
+      "discPrice": 20,
+      "realPrice": 30,
+      "image": "../image/product_22.png",
+      "type": "mens"
+    },
+    {
+      "id": 13,
+      "title": "Genuine Leather Wallet for Men",
+      "discPrice": 10,
+      "realPrice": 20,
+      "image": "../image/product_23.png",
+      "type": "mens"
+    },
+    {
+      "id": 14,
+      "title": "Thermal Fleece Sweater for Winter",
+      "discPrice": 40,
+      "realPrice": 60,
+      "image": "../image/product_15.png",
+      "type": "mens"
+    },
+    {
+      "id": 15,
+      "title": "Formal Black Trousers for Wedding",
+      "discPrice": 30,
+      "realPrice": 45,
+      "image": "../image/product_24.png",
+      "type": "mens"
+    },
+    {
+      "id": 16,
+      "title": "Casual Baseball Cap for Men",
+      "discPrice": 15,
+      "realPrice": 25,
+      "image": "../image/product_16.png",
+      "type": "mens"
+    },
+    {
+      "id": 17,
+      "title": "Moisture Wicking Sports Jersey",
+      "discPrice": 25,
+      "realPrice": 35,
+      "image": "../image/product_18.png",
+      "type": "mens"
+    },
+    {
+      "id": 18,
+      "title": "Genuine Leather Bag for Laptop",
+      "discPrice": 50,
+      "realPrice": 70,
+      "image": "../image/product_13.png",
+      " type": "mens"
+    },
+    {
+      "id": 19,
+      "title": "Formal Black Blazer for Business",
+      "discPrice": 60,
+      "realPrice": 80,
+      "image": "../image/product_16.png",
+      "type": "mens"
+    },
+    {
+      "id": 20,
+      "title": "Waterproof Hiking Boots for Men",
+      "discPrice": 70,
+      "realPrice": 90,
+      "image": "../image/product_19.png",
+      "type": "mens"
+    },
+    {
+        "id": 20,
+        "title": "Elegant Red Evening Dress",
+        "discPrice": 80,
+        "realPrice": 100,
+        "image": "../image/product_1.png",
+        "type": "womans"
+      },
+      {
+        "id": 21,
+        "title": "Comfortable High Waist Jeans",
+        "discPrice": 40,
+        "realPrice": 60,
+        "image": "../image/product_2.png",
+        "type": "womans"
+      },
+      {
+        "id": 22,
+        "title": "Genuine Leather Handbag Brown",
+        "discPrice": 50,
+        "realPrice": 70,
+        "image": "../image/product_3.png",
+        "type": "womans"
+      },
+      {
+        "id": 23,
+        "title": "Black Stiletto Heel Shoes",
+        "discPrice": 60,
+        "realPrice": 80,
+        "image": "../image/product_4.png",
+        "type": "womans"
+      },
+      {
+        "id": 24,
+        "title": "Water Resistant Fitness Watch",
+        "discPrice": 70,
+        "realPrice": 90,
+        "image": "../image/product_4.png",
+        "type": "womans"
+      },
+      {
+        "id": 25,
+        "title": "Graphic Print Cotton T-Shirt",
+        "discPrice": 18,
+        "realPrice": 28,
+        "image": "../image/product_5.png",
+        "type": "womans"
+      },
+      {
+        "id": 26,
+        "title": "Polarized Sunglasses for Women",
+        "discPrice": 30,
+        "realPrice": 40,
+        "image": "../image/product_6.png",
+        "type": "womans"
+      },
+      {
+        "id": 27,
+        "title": "Fleece Lined Hoodie for Winter",
+        "discPrice": 35,
+        "realPrice": 50,
+        "image": "../image/product_7.png",
+        "type": "womans"
+      },
+      {
+        "id": 28,
+        "title": "Breathable Sports Running Shoes",
+        "discPrice": 60,
+        "realPrice": 80,
+        "image": "../image/product_8.png",
+        "type": "womans"
+      },
+      {
+        "id": 29,
+        "title": "White Formal Blouse Long Sleeve",
+        "discPrice": 25,
+        "realPrice": 35,
+        "image": "../image/product_9.png",
+        "type": "womans"
+      },
+      {
+        "id": 30,
+        "title": "Faded Blue Jeans Jacket for Women",
+        "discPrice": 45,
+        "realPrice": 65,
+        "image": "../image/product_10.png",
+        "type": "womans"
+      },
+      {
+        "id": 31,
+        "title": "Comfortable Casual Cotton Pants",
+        "discPrice": 20,
+        "realPrice": 30,
+        "image": "../image/product_11.png",
+        "type": "womans"
+      },
+      {
+        "id": 32,
+        "title": "Genuine Leather Wallet for Women",
+        "discPrice": 10,
+        "realPrice": 20,
+        "image": "../image/product_rt_1.png",
+        "type": "womans"
+      },
+      {
+        "id": 33,
+        "title": "Thermal Fleece Sweater for Winter",
+        "discPrice": 40,
+        "realPrice": 60,
+        "image": "../image/product_1.png",
+        "type": "womans"
+      },
+      {
+        "id": 34,
+        "title": "Formal Black Trousers for Business",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_2.png",
+        "type": "womans"
+      },
+      {
+        "id": 35,
+        "title": "Casual Baseball Cap for Women",
+        "discPrice": 15,
+        "realPrice": 25,
+        "image":"../image/product_6.png",
+        "type": "womans"
+      },
+      {
+        "id": 36,
+        "title": "Moisture Wicking Sports Jersey",
+        "discPrice": 25,
+        "realPrice": 35,
+        "image": "../image/product_rt_4.png",
+        "type": "womans"
+      },
+      {
+        "id": 37,
+        "title": "Genuine Leather Bag for Laptop",
+        "discPrice": 50,
+        "realPrice": 70,
+        "image": "../image/product_8.png",
+        "type": "womans"
+      },
+      {
+        "id": 38,
+        "title": "Formal Black Blazer for Business",
+        "discPrice": 60,
+        "realPrice": 80,
+        "image": "../image/product_10.png",
+        "type": "womans"
+      },
+      {
+        "id": 39,
+        "title": "Waterproof Hiking Boots for Women",
+        "discPrice": 70,
+        "realPrice": 90,
+        "image": "../image/product_rt_2.png",
+        "type": "womans"
+      },
+      {
+        "id": 40,
+        "title": "Elegant Silver Necklace for Women",
+        "discPrice": 40,
+        "realPrice": 60,
+        "image": "../image/product_rt_3.png",
+        "type": "womans"
+      },
+      {
+        "id": 41,
+        "title": "Cute Cartoon Character T-Shirt",
+        "discPrice": 15,
+        "realPrice": 25,
+        "image": "../image/product_25.png",
+        "type": "kids"
+      },
+      {
+        "id": 42,
+        "title": "Comfortable Denim Jeans for Kids",
+        "discPrice": 20,
+        "realPrice": 30,
+        "image": "../image/product_26 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 43,
+        "title": "Soft and Cuddly Teddy Bear",
+        "discPrice": 10,
+        "realPrice": 20,
+        "image": "../image/product_28 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 44,
+        "title": "Kids' Sneakers for Running Shoes",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_28.png",
+        "type": "kids"
+      },
+      {
+        "id": 45,
+        "title": "Water Resistant Kids' Watch",
+        "discPrice": 25,
+        "realPrice": 35,
+        "image": "../image/product_29.png",
+        "type": "kids"
+      },
+      {
+        "id": 46,
+        "title": "Colorful Kids' Sunglasses",
+        "discPrice": 15,
+        "realPrice": 25,
+        "image": "../image/product_30 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 47,
+        "title": "Fleece Lined Kids' Hoodie",
+        "discPrice": 20,
+        "realPrice": 30,
+        "image": "../image/product_31 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 48,
+        "title": "Breathable Kids' Sports Shoes",
+        "discPrice": 35,
+        "realPrice": 50,
+        "image": "../image/product_32 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 49,
+        "title": "Cute Kids' Dress for Girls",
+        "discPrice": 25,
+        "realPrice": 35,
+        "image": "../image/product_32.png",
+        "type": "kids"
+      },
+      {
+        "id": 50,
+        "title": "Kids' Jeans Jacket for Boys",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_34.png",
+        "type": "kids"
+      },
+      {
+        "id": 51,
+        "title": "Comfortable Kids' Casual Pants",
+        "discPrice": 20,
+        "realPrice": 30,
+        "image": "../image/product_35 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 52,
+        "title": "Kids' Wallet with Cartoon Characters",
+        "discPrice": 10,
+        "realPrice": 20,
+        "image": "../image/product_35.png",
+        "type": "kids"
+      },
+      {
+        "id": 53,
+        "title": "Thermal Kids' Sweater for Winter",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_36.png",
+        "type": "kids"
+      },
+      {
+        "id": 54,
+        "title": "Kids' Baseball Cap for Boys",
+        "discPrice": 15,
+        "realPrice": 25,
+        "image": "../image/product_4.png",
+        "type": "kids"
+      },
+      {
+        "id": 55,
+        "title": "Moisture Wicking Kids' Sports Jersey",
+        "discPrice": 25,
+        "realPrice": 35,
+        "image": "../image/product_rt_4.png",
+        "type": "kids"
+      },
+      {
+        "id": 56,
+        "title": "Kids' Backpack for School",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_29.png",
+        "type": "kids"
+      },
+      {
+        "id": 57,
+        "title": "Kids' Water Shoes for Swimming",
+        "discPrice": 20,
+        "realPrice": 30,
+        "image": "../image/product_26 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 58,
+        "title": "Cute Kids' Hair Accessories",
+        "discPrice": 10,
+        "realPrice": 20,
+        "image": "../image/product_30 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 59,
+        "title": "Kids' Sunglasses with Cartoon Characters",
+        "discPrice": 15,
+        "realPrice": 25,
+        "image": "../image/product_32 - Copy.png",
+        "type": "kids"
+      },
+      {
+        "id": 60,
+        "title": "Kids' Fleece Jacket for Winter",
+        "discPrice": 30,
+        "realPrice": 45,
+        "image": "../image/product_28 - Copy.png",
+        "type": "kids"
+      }
+  ]
+
+
