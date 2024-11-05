@@ -1,10 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Users = require('./models/users');
+// const Users = require('./models/users');
 // const fs = require('fs');
 const cors = require("cors");
-const bcrypt = require('bcrypt');
-const Products = require('./models/product')
+// const bcrypt = require('bcrypt');
+const Products = require('./models/product');
+const { register, login } = require('./controllers/userController');
+const Todo = require('./models/todo');
 
 let app = express();
 app.use(express.json());
@@ -19,54 +21,8 @@ mongoose.connect('mongodb+srv://abhishek708158:EcGUlZJYDvR8UoGd@myshop.uasaj.mon
     console.log("Database is not connected", err.message);
   });
 
-  app.post('/register', (req, res) => {
-    const { name, email, password } = req.body;
-    Users.findOne({ email })
-      .then(user => {
-        if (user) {
-          return res.status(404).json({ status: "Failed", msg: "User  already Exist try Login" });
-        }
-        const hashedPassword = bcrypt.hashSync(password, 10);
-        const newUser = new Users({
-          name,
-          email,
-          password: hashedPassword
-        });
-        newUser.save()
-          .then((response) => {
-            res.status(201).json({ status: "Success", msg: "new user Created Successful" });
-          })
-          .catch((err) => {
-            res.status(500).json({ status: "Failed", msg: "server Error! user is not Created. " });
-          });
-      })
-      .catch((err) => {
-        res.status(500).json({ status: "Failed", msg: "server Error! user is not Created. " });
-      });
-  });
-  app.post('/login', (req, res) => {
-    const { email, password } = req.body;
-
-    // Find the user by email
-    Users.findOne({ email })
-      .then(user => {
-        if (!user) {
-          return res.status(404).json({ status: "Failed", msg: "User  not found" });
-        }
-
-        // Compare the provided password with the stored hashed password
-        const isPasswordValid = bcrypt.compareSync(password, user.password);
-        if (!isPasswordValid) {
-          return res.status(401).json({ status: "Failed", msg: "Invalid password" });
-        }
-
-        // If the password is valid, return success response
-        res.status(200).json({ status: "Success", msg: "Login successful", user: { name: user.name, email: user.email } });
-      })
-      .catch(err => {
-        res.status(500).json({ status: "Failed", msg: "Server Error!" });
-      });
-  });
+  app.post('/register', register);
+  app.post('/login',login);
   // app.get('/products', (req, res) => {
   //     fs.readFile('./Products/product.json','utf-8', (err, data) => {
   //         if (err) {
@@ -108,6 +64,74 @@ mongoose.connect('mongodb+srv://abhishek708158:EcGUlZJYDvR8UoGd@myshop.uasaj.mon
         res.status(400).json({ status: "Failed", msg: "Error while fetching data" })
       })
   })
+
+
+  app.post('/todo',(req,res)=>{
+    const {text}= req.body;
+    const newTodo =  new Todo({
+      text
+    })
+    newTodo.save()
+    .then(resp=>{
+      res.send("success")
+    })
+    .catch(err=>{
+      res.send('failed')
+    })
+  })
+
+  // red
+  app.get('/todo',(req,res)=>{
+    // const {text}= req.body;
+    // const newTodo =  new Todo({
+    //   text
+    // })
+    Todo.find({})
+    .then(resp=>{
+      res.json({data:resp})
+    })
+    .catch(err=>{
+      res.send('failed')
+    })
+  })
+
+  // delete
+  app.post('/todo/:id',(req,res)=>{
+    const {id}= req.params;
+    // const newTodo =  new Todo({
+    //   text
+    // })
+    console.log(id);
+    Todo.findByIdAndDelete({_id:id})
+    .then(resp=>{
+      res.send("success")
+    })
+    .catch(err=>{
+      res.send('failed')
+    })
+  })
+
+  // update
+
+  app.post('/todo/:id',(req,res)=>{
+    const {id}= req.params;
+    const {text}=req.body;
+
+    const newTodo =  new Todo({
+      text
+    })
+    Todo.findByIdAndUpdate({_id:id},{$set, newTodo})
+    .then(resp=>{
+      res.send("success")
+    })
+    .catch(err=>{
+      res.send('failed')
+    })
+  })
+  
   app.listen(4000, () => {
     console.log("server is running on port 4000");
   })
+
+
+
